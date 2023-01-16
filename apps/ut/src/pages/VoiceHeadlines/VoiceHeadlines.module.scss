@@ -1,0 +1,272 @@
+.background {
+  width: 98vw;
+  background: rgba(242, 243, 247, 1);
+  padding-top: 24px;
+
+  .conter {
+    width: 1147px;
+    margin: 0 auto;
+    display: flex;
+
+    .conterLleft {
+      max-height: calc(100vh - 153px);
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 12px;
+      padding: 20px;
+      padding-right: 0;
+      width: 292px;
+      box-sizing: border-box;
+
+      .myTopic {
+        .myTopicTitle {
+          padding-right: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .span1 {
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(8, 11, 49, 1);
+            margin-bottom: 10px;
+          }
+
+          .span2 {
+            margin-left: 8px;
+            font-size: 12px;
+            font-weight: normal;
+            color: rgba(153, 153, 153, 1);
+          }
+
+          .edit {
+            text-align: right;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: normal;
+            color: rgba(57, 60, 90, 1);
+
+            &:hover {
+              color: rgba(51, 117, 220, 1);
+            }
+          }
+
+          .save {
+            text-align: right;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: normal;
+            color: rgba(51, 117, 220, 1);
+          }
+        }
+
+        .myTopicContent {
+          font-size: 0;
+          line-height: 0;
+          .openTopicRow {
+            box-sizing: border-box;
+            max-width: 250px;
+            line-height: 40px;
+            padding: 0px 24px;
+            margin: 12px 12px 0px 0px;
+            border-radius: 50px;
+            font-size: 16px;
+            background: rgba(235, 237, 243, 1);
+            box-sizing: border-box;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            cursor: pointer;
+          }
+
+        }
+        .myTopicListContent {
+          font-size: 0;
+          line-height: 0;
+        }
+
+        .myTopicRow {
+          max-width: 100%;
+          min-width: 32px;
+          line-height: 40px;
+          padding: 0px 24px;
+          margin: 12px 12px 0px 0px;
+          border-radius: 50px;
+          font-size: 16px;
+          background: rgba(247, 248, 250, 1);
+          box-sizing: border-box;
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          -o-text-overflow: ellipsis;
+          cursor: pointer;
+        }
+
+        .active {
+          max-width: 100%;
+          min-width: 32px;
+          line-height: 40px;
+          padding: 0px 24px;
+          margin: 12px 12px 0px 0px;
+          border-radius: 50px;
+          font-size: 16px;
+          color: #FA2C19;
+          background: rgba(255, 242, 241, 1);
+          box-sizing: border-box;
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          -o-text-overflow: ellipsis;
+          cursor: pointer;
+        }
+      }
+
+      .br {
+        height: 1px;
+        background: rgba(242, 242, 242, 1);
+        margin: 20px 0px;
+        margin-right: 20px;
+      }
+
+      .recommendedTopics {
+        .recommendedTopicsTitle {
+          font-size: 20px;
+          font-weight: 500;
+          color: rgba(8, 11, 49, 1);
+          margin-bottom: 12px;
+        }
+
+        .CategoryOne {
+          margin-top: 20px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+
+          .recommendedTopicContent {
+            font-size: 0;
+            line-height: 0;
+
+            .recommendedTopicRow {
+              max-width: 250px;
+              min-width: 32px;
+              height: 40px;
+              line-height: 40px;
+              padding: 0px 24px;
+              margin: 12px 12px 0px 0px;
+              border-radius: 50px;
+              font-size: 16px;
+              background: rgba(247, 248, 250, 1);
+              box-sizing: border-box;
+              display: inline-block;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              -o-text-overflow: ellipsis;
+              cursor: pointer;
+              font-weight: normal;
+            }
+
+            .active {
+              max-width: 100%;
+              min-width: 32px;
+              line-height: 40px;
+              padding: 0px 24px;
+              margin: 12px 12px 0px 0px;
+              border-radius: 50px;
+              font-size: 16px;
+              color: #FA2C19;
+              background: rgba(255, 242, 241, 1);
+              box-sizing: border-box;
+              display: inline-block;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              -o-text-overflow: ellipsis;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    .conterRight {
+      margin-left: 20px;
+      width: 834px;
+      min-height: calc(100vh - 153px);
+
+      .header {
+        width: 100%;
+        margin-bottom: 16px;
+
+        .headerbox {
+
+          display: flex;
+          align-items: center;
+
+          .headerboxTitle {
+            font-size: 24px;
+            font-weight: 500;
+            color: rgba(250, 44, 25, 1);
+          }
+
+          .headerboxButton {
+            height: 28px;
+            margin-left: 24px;
+            background: rgba(242, 243, 247, 1);
+            border-radius: 50px;
+            border-color: #FA2C19;
+            color: #FA2C19;
+            padding: 0px 15px;
+
+            &:active {
+              background: #fff;
+            }
+          }
+        }
+
+        .headerboxText {
+          font-size: 14px;
+          font-weight: normal;
+          color: rgba(119, 121, 142, 1);
+          text-overflow: -o-ellipsis-lastline;
+          overflow: hidden; //溢出内容隐藏
+          text-overflow: ellipsis; //文本溢出部分用省略号表示
+          display: -webkit-box; //特别显示模式
+          -webkit-line-clamp: 2; //行数
+          line-clamp: 2;
+          -webkit-box-orient: vertical; //盒子中内容竖直排列
+        }
+      }
+
+      .empty {
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+
+        .emptyText {
+          font-size: 20px;
+          line-height: 27px;
+          font-weight: normal;
+          color: rgba(180, 181, 193, 1);
+          margin-top: 11px;
+        }
+      }
+
+      .cardBox {
+        margin-top: 20px;
+      }
+
+      .Pagination {
+        width: 100%;
+        height: 77px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+      }
+    }
+  }
+}

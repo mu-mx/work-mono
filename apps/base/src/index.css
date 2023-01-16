@@ -1,0 +1,21 @@
+body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Microsoft YaHei UI', 'Helvetica Neue', Arial,
+    'Hiragino Sans GB', 'Heiti SC', 'Source Han Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F2F3F7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.icon-placeholder {
+  font-size: 14px;
+  background: red;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}

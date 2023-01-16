@@ -1,0 +1,56 @@
+{
+  "name": "ut",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env REACT_APP_MODE=dev craco start",
+    "dev:pre": "cross-env REACT_APP_MODE=pre craco start",
+    "start": "cross-env REACT_APP_MODE=dev craco start",
+    "start:pre": "cross-env REACT_APP_MODE=pre craco start",
+    "build": "cross-env REACT_APP_MODE=dev craco build",
+    "build:pre": "cross-env REACT_APP_MODE=pre craco build",
+    "build:prod": "cross-env REACT_APP_MODE=prod craco build",
+    "test": "craco test"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.0.5",
+    "@dnd-kit/sortable": "^7.0.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "antd": "4.24.2",
+    "axios": "^0.27.2",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.11.7",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loadable": "^5.5.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.56.1",
+    "typescript": "^4.8.4",
+    "xss": "^1.0.14"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.0.0",
+    "@types/mockjs": "^1.0.7",
+    "@types/react-loadable": "^5.5.6"
+  }
+}

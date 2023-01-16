@@ -1,0 +1,22 @@
+.right {
+  width: 100%;
+  background: #fff;
+  padding: 12px;
+
+  :global {
+    .ant-table-tbody > tr.ant-table-row:hover > td,
+    .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+      background: gainsboro;
+    }
+  }
+}
+
+.btns {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 12px;
+}
+
+.gray {
+  background: gainsboro;
+}

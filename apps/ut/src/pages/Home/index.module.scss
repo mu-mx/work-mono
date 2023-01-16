@@ -1,0 +1,136 @@
+.carouselWrapper {
+  background: #F0F8FF;
+  .carouselContainer {
+    width: 1230px;
+    margin: auto;
+    position: relative;
+  }
+  .imgWrapper {
+    width: 1230px;
+    height: 330px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.personalCard {
+  border-radius: 12px;
+  box-shadow:  0 2px 6px 0 rgba(4,1,135,0.06);
+  background: #fff;
+  width: 320px;
+  position: absolute;
+  top: 54px;
+  right: -10px;
+  .cardContent {
+    padding: 16px;
+    .personalTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #080B31;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .personalPage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80px;
+      height: 20px;
+      background: rgba(235,237,243,1);
+      border-radius: 12px;
+      color: #393C5A;
+      font-size: 12px;
+      line-height: 12px;
+      i {
+        font-size: 10px;
+        color: currentColor;
+      }
+      &:hover {
+        color: #3375DC;
+      }
+    }
+    .department {
+      color: #77798E;
+      font-size: 14px;
+      line-height: 22px;
+      margin-top: 12px;
+    }
+  }
+  .cardFooter {
+    border-top: 1px solid #EDEEF2;
+    display: flex;
+    height: 82px;
+    .btn {
+      flex: auto;
+      color:#080B31;
+      font-size: 14px;
+      line-height: 22px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &:hover .bold {
+        color: #3375DC;
+      }
+    }
+    .bold {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 4px;
+    }
+  }
+}
+.content {
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .recommend {
+    width: 320px;
+    padding: 16px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 12px;
+    //box-shadow:  -2px 5px 12px 0 rgba(0,62,154,0.15);
+    //border: 2px solid rgba(255,255,255,1);
+    margin-left: 16px;
+    margin-top: 16px;
+    background: #fff url("./recommand.png") no-repeat;
+    background-size: cover;
+    color: #393C5A;
+    .recommendTitle {
+      font-size: 20px;
+      line-height: 30px;
+      color: #080B31;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+    li {
+      margin-bottom: 16px;
+      cursor: pointer;
+      display: flex;
+      a {
+        color: currentColor;
+      }
+      &:hover {
+        color: #266BF6 !important;
+        > span:first-child {
+          color: #266BF6;
+        }
+      }
+      > span:first-child {
+        color: #B4B5C1;
+        font-size: 16px;
+        margin-right: 12px;
+        font-weight: bold;
+        display: inline-block;
+        width: 17px;
+      }
+    }
+  }
+}
+

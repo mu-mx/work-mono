@@ -1,0 +1,92 @@
+.myCenterwrapper {
+  width: 100%;
+  background: rgba(242, 243, 247, 1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .myBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 170px;
+    word-break: break-all;
+    padding: 43px;
+    background: url('../../images/myCenter/pocket-background.png');
+    background-size: 100% 100%;
+    .myInfo {
+      display: flex;
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 18px;
+        width: 741px;
+        .name {
+          font-size: 32px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: rgba(20, 21, 29, 1);
+          word-break: break-all;
+        }
+        .department {
+          font-size: 18px;
+          font-family: PingFang SC;
+          font-weight: normal;
+          color: rgba(119, 121, 142, 1);
+        }
+      }
+    }
+  }
+
+  .tabWrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .tab {
+      width: 840px;
+      margin-top: 24px;
+      padding-left: 20px;
+      :global {
+        .ant-tabs-tab.ant-tabs-tab-btn {
+          color: rgba(8, 11, 49, 1);
+        }
+        .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+          color: #fa2c19;
+        }
+        .ant-tabs-tab .ant-tabs-tab-active {
+          color: #fa2c19;
+        }
+        .ant-tabs-tab + .ant-tabs-tab {
+          margin: 0 0 0 40px;
+        }
+        .ant-tabs-tab:hover {
+          color: #fa2c19;
+        }
+        .ant-tabs-ink-bar {
+          background: #fa2c19;
+          height: 7px;
+          transform: scale(0.3);
+        }
+        .ant-tabs-bottom > .ant-tabs-nav,
+        .ant-tabs-bottom > div > .ant-tabs-nav,
+        .ant-tabs-top > .ant-tabs-nav,
+        .ant-tabs-top > div > .ant-tabs-nav {
+          margin: 0;
+        }
+        .ant-tabs-tab-btn:active,
+        .ant-tabs-tab-btn:focus,
+        .ant-tabs-tab-remove:active,
+        .ant-tabs-tab-remove:focus {
+          color: rgba(8, 11, 49, 1);
+        }
+      }
+    }
+  }
+
+  .cardWrapper {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+  }
+}

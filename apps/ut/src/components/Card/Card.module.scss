@@ -1,0 +1,82 @@
+.card {
+    width: 834px;
+    margin-top: 16px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    cursor: pointer;
+
+    .cardTitle {
+
+        //display: flex;
+        //align-items: center;
+        // .cardTitleImg{
+        //     width: 24px;
+        //     height: 24px;
+        // }
+        .cardTitleText {
+            cursor: pointer;
+            //width: 240px;
+            line-height: 30px;
+            margin-left: 2px;
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(8, 11, 49, 1);
+        }
+    }
+
+    .cardText {
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: normal;
+        color: rgba(57, 60, 90, 1);
+        text-overflow: -o-ellipsis-lastline;
+        overflow: hidden; //溢出内容隐藏
+        text-overflow: ellipsis; //文本溢出部分用省略号表示
+        display: -webkit-box; //特别显示模式
+        -webkit-line-clamp: 3; //行数
+        line-clamp: 3;
+        -webkit-box-orient: vertical; //盒子中内容竖直排列
+    }
+
+    .cardImgBox {
+        margin: 0px 0px 16px 0px;
+        display: inline-block;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #77798E;
+
+        .footerLeft {
+            width: 200px;
+            height: 22px;
+            display: flex;
+
+            .footerLeftBox {
+                display: flex;
+                align-items: center;
+                line-height: 22px;
+                width: 60px;
+
+                i {
+                    margin-right: 2px;
+                }
+
+                .footerLeftText {
+                    font-size: 12px;
+                    font-weight: normal;
+                    color: rgba(119, 121, 142, 1);
+                }
+            }
+        }
+
+        .footerDate {
+            font-size: 14px;
+            font-weight: normal;
+            color: rgba(119, 121, 142, 1);
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "mt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env REACT_APP_MODE=pre craco start",
+    "dev:pre": "cross-env REACT_APP_MODE=pre craco start",
+    "start": "cross-env REACT_APP_MODE=pre craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@ant-design/pro-form": "^2.3.1",
+    "@ant-design/pro-layout": "^7.2.4",
+    "@ant-design/pro-table": "^3.1.7",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "antd": "^4.24.2",
+    "axios": "^1.1.3",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.56.1",
+    "typescript": "^4.8.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.0.0",
+    "@types/mockjs": "^1.0.7",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "mockjs": "^1.1.0"
+  }
+}

@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: flex-start;
+  .main {
+    background: #fff;
+    width: 980px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 20px;
+    .mainTitle {
+      cursor: pointer;
+      color: #080B31;
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 500;
+    }
+    .articleContent {
+      margin: 12px 0 8px 0;
+    }
+  }
+  .sidebar {
+    background: #fff url("../Home/recommand.png") no-repeat;
+    background-size: cover;
+    margin-left: 16px;
+    border-radius: 12px;
+    width: 336px;
+    box-sizing: border-box;
+    padding: 20px;
+    .sideTitle {
+      color: #080B31;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 16px;
+      font-weight: 500;
+    }
+    li {
+      margin-bottom: 16px;
+      cursor: pointer;
+      color: #393C5A;
+      display: flex;
+      a {
+        color: currentColor;
+      }
+      &:hover {
+        color: #266BF6 !important;
+        > span:first-child {
+          color: #266BF6;
+        }
+      }
+      > span:first-child {
+        color: #B4B5C1;
+        font-size: 16px;
+        margin-right: 12px;
+        font-weight: bold;
+        display: inline-block;
+        width: 17px;
+      }
+    }
+  }
+  .footer {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #77798E;
+    .footerLeft {
+      font-size: 12px;
+      line-height: 18px;
+      display: flex;
+      .footerLeftBox {
+        width: 60px;
+        i {
+          margin-right: 2px;
+        }
+      }
+      .pointer {
+        cursor: pointer;
+      }
+      .footerLeftText {}
+      .footerLeftImg {
+        width: 16px;
+        height: 16px;
+        margin-right: 2px;
+        vertical-align: top;
+      }
+    }
+    .footerRight {
+      display: flex;
+      font-size: 14px;
+      line-height: 22px;
+      .source {
+        max-width: 500px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .publishDate {
+        margin-left: 22px;
+      }
+    }
+  }
+}

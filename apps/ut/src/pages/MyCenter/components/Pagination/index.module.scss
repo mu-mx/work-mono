@@ -1,0 +1,74 @@
+.pageWrapper {
+    // width: 517px;
+    height: 32px;
+    border-radius: 8px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+
+    :global {
+        .ant-pagination-item {
+            border: 1px solid rgba(222, 223, 230, 1);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .ant-pagination-item a {
+            font-size: 14px;
+            font-family: PingFang SC;
+            font-weight: normal;
+            color: rgba(57, 60, 90, 1);
+        }
+
+        .ant-pagination-item-active a {
+            font-size: 14px;
+            font-family: PingFang SC;
+            font-weight: normal;
+            color: rgba(250, 44, 25, 1);
+        }
+
+        .ant-pagination-item-active {
+            background: rgba(254, 230, 227, 1) !important;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .ant-pagination-next .ant-pagination-item-link,
+        .ant-pagination-prev .ant-pagination-item-link {
+            background: rgba(255, 255, 255, 1);
+            border: 1px solid rgba(222, 223, 230, 1);
+            border-radius: 9px;
+        }
+
+        .ant-pagination-options-quick-jumper input {
+            background: rgba(255, 255, 255, 1);
+            border-radius: 9px;
+        }
+
+        .ant-pagination-options-quick-jumper input:focus-within {
+            border: 1px solid rgba(250, 44, 25, 1);
+            border-radius: 9px;
+        }
+
+        .ant-pagination-options-quick-jumper input:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: none;
+            border-radius: 9px;
+            border: 1px solid rgba(250, 44, 25, 1);
+        }
+
+        .ant-pagination-options-quick-jumper input-focused,
+        .ant-pagination-options-quick-jumper input:focus {
+            border-color: rgba(250, 44, 25, 1);
+            box-shadow: none;
+        }
+
+        .anticon,
+        .anticon svg:hover {
+            color: rgba(57, 60, 90, 1)
+        }
+
+        .anticon svg {
+            // fill: red
+        }
+    }
+}

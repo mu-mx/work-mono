@@ -1,0 +1,7 @@
+.imageWrapper {
+  margin: 16px 16px 0 0;
+  display: inline-block;
+  &:nth-child(7n) {
+    margin-right: 0;
+  }
+}
